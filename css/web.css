@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* 
+CSS Document webページ stylesheet
+
+2012/01/01
+
+ */
+
+#container {
+	width: 720px;
+	margin: 10px 15px 30px;
+}
+
+#contents {
+	width: 510px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	background: #fff;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-bottom: 2px solid #ccc;
+}
+
+.webCreate {
+	width: 490px;
+	margin: 0 10px 10px 10px;
+	padding: 0px 0 20px 0;
+	background: url(../images/web_desgin_page/web_Create_area_bg.png) repeat-y top left;
+}
+
+.pageDesgin {
+	float: left;
+	width: 120px;
+	padding: 50px 0 0 10px;
+}
+
+.webCreate dl {
+	float: right;
+	width: 350px;
+	padding: 15px 0 0 0;
+}
+
+.siteAddress {
+	font-size: 90%;
+	margin: 0 0 0 10px;
+}
+
+.siteExplanation {
+	width: 300px;
+	font-size: 80%;
+	margin: 10px 0 15px 10px;
+}
+
+.Program {
+	font-size: 70%;
+	width: 350px;
+	margin: 0 0 0 10px;
+}
+
+.Program li {
+	float: left;
+	width: 95px;
+	margin: 0 10px 10px 0;
+	padding: 3px 0 2px 0;
+	text-align: center;
+	background: #0081b8;
+	color: #fff;
+}
+
+
+/*アンカーリンク　オマタモータース*/
+#omata {
+	font-size: 80%;
+}
+
+
+
+/*------------------fix hack 設定　ここから------------------*/
+
+.webCreate:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.webCreate {
+	display: inline-block;
+}
+
+/* hide macie \*/
+
+*html .webCreate {
+	height: 1px;
+}
+
+.webCreate {
+	display: block;
+}
+
+

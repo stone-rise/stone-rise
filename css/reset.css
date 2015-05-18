@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* 
+CSS Document reset.css
+
+ブラウザ間のcss　リセット　スタイル
+ */
+
+ /*		スタイル	基本設定　ここから			*/
+ 
+html,body,h1,h2,h3,h4,h5,h6,p,pre,address,ul,li,ol,dl,dt,dd,tabel,th,td,blockquote,q,div {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+ a:link {
+	color: #333; 
+	text-decoration: none;
+}
+
+a:visited {
+	color: #30F;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FC6;
+	text-decoration: none;
+}
+
+a:active {
+	color: #C63;
+	text-decoration: none;
+}
+
+body {
+	font-size: 100%;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: normal;
+	color: #333;
+	line-height: 1.5;
+	letter-spacing: 0.1em;
+	text-align: center;
+	background-image: url(../images/body_bg_02_03.png);
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a,address{
+	text-align: left;
+}
+
+
+
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	margin-bottom: 19px; 
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* hide macie \*/
+
+*html .clearfix {
+	height: 1px;
+}
+
+.clearfix {
+	display: block;
+}
+
+
+
+ /*		スタイル	基本設定　ここまで			*/
+

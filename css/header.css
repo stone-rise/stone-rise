@@ -1,0 +1,318 @@
+@charset "utf-8";
+
+/* 
+CSS Document header.css
+
+ /*		スタイル	基本設定　ここから			*/
+ 
+html,body,h1,h2,h3,h4,h5,h6,p,pre,address,ul,li,ol,dl,dt,dd,tabel,th,td,blockquote,q,div {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+ a:link {
+	color: #333; 
+	text-decoration: none;
+}
+
+a:visited {
+	color: #30F;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FC6;
+	text-decoration: none;
+}
+
+a:active {
+	color: #C63;
+	text-decoration: none;
+}
+
+body {
+	font-size: 100%;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: normal;
+	color: #333;
+	line-height: 1.5;
+	letter-spacing: 0.1em;
+	text-align: center;
+	background-image: url(../images/body_bg_02_03.png);
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a,address{
+	text-align: left;
+	margin: 0;
+	
+}
+
+
+#wrapper {
+	width: 750px;
+	margin: 5px auto;
+	padding: 0;
+	position: relative;
+	background: #fff3d5;
+}
+
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* hide macie \*/
+
+*html .clearfix {
+	height: 1px;
+}
+
+.clearfix {
+	display: block;
+}
+
+
+
+ /*		スタイル	基本設定　ここまで			*/
+
+ /*			header　スタイル　ここから			*/
+ 
+#header {
+	width: 100%;
+	background: #fff;
+	height: 278px;
+	border-bottom: 2px solid #666;
+	text-align: left;
+}
+
+#logo {
+	margin: 0;
+	padding: 0;
+	background: url(../images/top_page/logo_onMouse.png) no-repeat left top;
+}
+
+#logo a {
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 178px;
+	height: 0 !important;
+	height /**/: 85px;
+	padding-top: 85px;
+	background: url(../images/top_page/logo.png) no-repeat left top;
+}
+
+#logo a:hover {
+	background-image: none;
+	background-color: transparent;
+}
+
+/*----------------トップイメージ　設定-------------------*/
+
+#topImage {
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+/*-------サイトマップ　設定-------*/
+
+#siteMap {
+	position: absolute;
+	height: 18px;
+	width: 100px;
+	top: 10px;
+	left: 640px;
+	border-bottom: 2px solid #ffbf5a;
+	padding: 0 0 0 5px;
+}
+
+
+#siteMap a {
+	display: block;
+	background: #fff url(../images/top_page/sitemap-arrow.png) no-repeat left center;
+	font-size: 65%;
+	padding-left: 20px;
+}
+
+/*--------------パンくずリスト　設定　ここから--------------*/
+
+#utilityNavi {
+	width: 390px;
+	margin: 35px 0 0 20px;
+	padding: 0;
+}
+
+#utilityNavi li {
+	float: left;
+	width: 130px;
+	margin: 0;
+	padding: 0;
+	font-size: 70%;
+}
+
+/*---------パンくず　スターハック　ここから----------*/
+
+
+/*				Gnavi　スタイル　ここから			*/
+
+#Gnavi {
+	width: 750px;
+	position: absolute;
+	top: 85px;
+	left: 0;
+}
+
+#Gnavi ul {
+	width: 750px;
+	margin: 0;
+	padding: 0;
+}
+
+#Gnavi li {
+	float: left;
+	width: 150px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+/*------------トップページ　設定　------------*/
+
+#homePage a {
+	display: block;
+	overflow: hidden;
+	width: 150px;
+	height: 0 !important;
+	height /**/: 30px;
+	padding-top: 30px;
+	background: url(../images/Gnavi/image_01/Gnavi_image_home.png) top left no-repeat;
+}
+
+#homePage a:visited {
+	background-position: 0 -90px; 
+}
+
+#homePage a:hover {
+	background-position: 0 -30px; 
+}
+
+Page a:active {
+	background-position: 0 -60px; 
+}
+
+
+
+/*----------------------------webページ設定　設定-------------------------------*/
+
+#webPage a {
+	display: block;
+	overflow: hidden;
+	width: 150px;
+	height: 0 !important;
+	height /**/: 30px;
+	padding-top: 30px;
+	background: url(../images/Gnavi/image_01/Gnavi_image_web.png) top left no-repeat;
+}
+
+#webPage a:visited {
+	background-position: 0 -90px; 
+}
+
+#webPage a:hover {
+	background-position: 0 -30px; 
+}
+
+#webPage a:active {
+	background-position: 0 -60px; 
+}
+
+/*-----------------------Illust　設定-----------------------*/
+
+#illustPage a {
+	display: block;
+	overflow: hidden;
+	width: 150px;
+	height: 0 !important;
+	height /**/: 30px;
+	padding-top: 30px;
+	background: url(../images/Gnavi/image_01/Gnavi_image_illust.png) top left no-repeat;
+}
+
+#illustPage a:visited {
+	background-position: 0 -90px; 
+}
+
+#illustPage a:hover {
+	background-position: 0 -30px; 
+}
+
+#illustPage a:active {
+	background-position: 0 -60px; 
+}
+/*-----------------------proflie　設定-----------------------*/
+
+#profilePage a {
+	display: block;
+	overflow: hidden;
+	width: 150px;
+	height: 0 !important;
+	height /**/: 30px;
+	padding-top: 30px;
+	background: url(../images/Gnavi/image_01/Gnavi_image_profile.png) top left no-repeat;
+}
+
+#profilePage a:visited {
+	background-position: 0 -90px; 
+}
+
+#profilePage a:hover {
+	background-position: 0 -30px; 
+}
+
+#profilePage a:active {
+	background-position: 0 -60px; 
+}
+/*-----------------------Illust　設定-----------------------*/
+
+#contactPage a {
+	display: block;
+	overflow: hidden;
+	width: 150px;
+	height: 0 !important;
+	height /**/: 30px;
+	padding-top: 30px;
+	background: url(../images/Gnavi/image_01/Gnavi_image_contact.png) top left no-repeat;
+}
+
+#contactPage a:visited {
+	background-position: 0 -90px; 
+}
+
+#contactPage a:hover {
+	background-position: 0 -30px; 
+}
+
+
+#contactPage a:active {
+	background-position: 0 -60px; 
+}
+
+ 
+ /*				Gnavi　スタイル　ここまで			*/
+ 
+ /*			header　スタイル　ここまで			*/

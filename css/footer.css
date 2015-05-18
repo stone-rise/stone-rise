@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+/* 
+CSS Document footer.css
+
+サイトの基本設定　footer
+
+ */
+ 
+ /*----------------footer　エリア　設定　ここまで-----------------*/
+ 
+#footer {
+	background-image: url(../images/top_page/footer_bg.jpg);
+	background-repeat: no-repeat;
+	clear: both;
+	height: 80px;
+	width: 750px;
+	position: relative;
+}
+
+/*-------------footer navi　設定　ここから--------------*/
+
+#footer #footerNavi {
+	margin-top: 0px;
+	margin-left: 20px;
+	padding-top: 7px;
+}
+
+#footerNavi li {
+	float: left;
+	display: block;
+	height: 15px;
+	width: 85px;
+	margin-right: 20px;
+	font-size: 65%;
+	color: #fff;
+}
+
+#footerNavi li a {
+	display: block;
+	height: 15px;
+	width: 100px;
+	background: url(../images/top_page/footer_navi_arrow.png) no-repeat left center;
+	padding: 3px 0 0 5px;
+	color: #fff;
+	text-align: center;
+}
+
+#footerNavi li a:hover {
+	color: #FC6;
+}
+
+
+
+/*-------------footer navi　設定　ここまで--------------*/
+
+/*-------------------コピーライト　設定　ここから---------------------------*/
+
+#copy {
+	position: absolute;
+	top: 55px;
+	left: 380px;
+}
+
+/*-----------ブログのリンク　設定　ここから----------*/
+
+#gotoBlog {
+	position: absolute;
+	width: 180px;
+	top: 40px;
+	left: 30px;
+}
+
+*html #gotoBlog {
+	position: absolute;
+	width: 180px;
+	top: 30px;
+	left: 30px;
+}
+
+/*----IE hack----*/
+
+*html #gotoBlog {
+	margin: 10px 0 0 0;
+}
+
+#gotoBlog li {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 0 10px 0px 0;
+	padding: 0;
+}
+
+/*---------pixiv　設定　ここから----------*/
+
+#Pixiv a{
+	display: block;
+	width: 30px;
+	overflow: hidden;
+	height: 0 !important;
+	height /**/ : 30px;
+	padding-top: 30px;
+	background: url(../images/footer/footer_blog_navi_pixiv.png) no-repeat left top;
+}
+
+#Pixiv a:visited {
+	background-position: 0 0px;
+}
+#Pixiv a:hover {
+	background-position: 0 -30px;
+}
+#Pixiv a:active {
+	background-position: 0 -60px;
+}
+
+/*---------------ameba　設定　ここから---------------*/
+
+#Ameba a{
+	display: block;
+	width: 30px;
+	overflow: hidden;
+	height: 0 !important;
+	height /**/ : 30px;
+	padding-top: 30px;
+	background: url(../images/footer/footer_blog_navi_ameba.png) no-repeat left top;
+}
+
+#Ameba a:visited {
+	background-position: 0 0px;
+}
+#Ameba a:hover {
+	background-position: 0 -30px;
+}
+#Ameba a:active {
+	background-position: 0 -60px;;
+}
+
+/*------------facebook　設定　ここから------------*/
+
+#Facebook a{
+	display: block;
+	width: 30px;
+	overflow: hidden;
+	height: 0 !important;
+	height /**/ : 30px;
+	padding-top: 30px;
+	background: url(../images/footer/footer_blog_navi_facebook.png) no-repeat left top;
+}
+
+#Facebook a:visited {
+	background-position: 0 0px;
+}
+#Facebook a:hover {
+	background-position: 0 -30px;
+}
+#Facebook a:active {
+	background-position: 0 -60px;;
+}
+
+/*----------------twitter　設定　ここから----------------*/
+#twitter a{
+	display: block;
+	width: 30px;
+	overflow: hidden;
+	height: 0 !important;
+	height /**/ : 30px;
+	padding-top: 30px;
+	background: url(../images/footer/footer_blog_navi_twitter.png) no-repeat left top;
+}
+
+#twitter a:visited {
+	background-position: 0 0px;
+}
+#twitter a:hover {
+	background-position: 0 -30px;
+}
+#twitter a:active {
+	background-position: 0 -60px;;
+}
+
+
+/*-----------ブログのリンク　設定　ここまで----------*/
+
+/*------------ブログの設定　ここまで------------*/
+
+
