@@ -1,21 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--				STONE_RISE index.html				-->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta name="author" content="Taichi Ishizaka" />
 <meta name="keywords" content="STONE RISE,ポートフォリオ,サイト,デザイン,イラスト,石坂,サイト製作" />
 <meta name="description" content="STONE&nbsp;RISEはwebデザイナー石坂太一のポートフォリオサイトです。製作サイトとイラスト作品を公開しています。" />
 <meta name="copyright" content="Copyright&nbsp;&copy;&nbsp;stone&nbsp;rise&nbsp;All&nbsp;Rights&nbsp;Reserved. " />
-<meta name="date" content="2012-01-03" />
-<meta name="ROBOTS" content="INDEX,FOLLOW" />
-<title>STONE&nbsp;RISE</title>
-<link href="css/top.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="shortcut icon" href="favicon/stone_rise_favicon_standard.ico" type="image/vnd.microsoft.icon" /> 
-<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<meta name="date" content="" />
+<title>STONE RISE</title>
+<link rel="shortcut icon" href="favicon/stone_rise_favicon_standard.ico" type="image/vnd.microsoft.icon" />
+<link href="css/header.css" rel="stylesheet" type="text/css" media="all" /> 
+<link href="css/top.css" rel="stylesheet" type="text/css" media="all" /> 
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -29,6 +40,7 @@
   })();
 
 </script>
+
 </head>
 
 <body>
@@ -36,10 +48,77 @@
 <div id="header">
 <h1 id="logo"><a href="index.html" title="ホームへ">logo</a></h1>
 
+<!--				パンくずリスト　ここから			-->
 
-<iframe width='' height='' style='display:none'></iframe><div class="loginBox"><h2>システムログイン</h2><form action="http://togo-test.funward.jp/user/login?login_code=ishizaka2" id="login_sample" method="post"><div class="innerbox"><table cellspacing="8" class=" cke_show_border"><tbody><tr><th>ログインID：</th><td><input class="W260" id="login" data-cke-saved-name="login" name="login" type="text" value="" data-cke-editable="1" contenteditable="false"></td></tr><tr><th>パスワード：</th><td><input class="W260" id="password" data-cke-saved-name="password" name="password" type="password" value="" data-cke-editable="1" contenteditable="false"></td></tr><tr><td align="center" border="1" colspan="2" height="30"><p><input name="commit" onclick="this.disabled = true;this.form.submit()" type="submit" value="ログイン"></p><p><p><label><input id="guardian" type="checkbox" value="true" name="guardian">保護者ログイン</label><br></p></p></td></tr></tbody></table></div></form></div><p><br></p>
+<ul id="utilityNavi">
+	<li><a href="index.html">トップページ&gt;</a></li>
+    <li>イラスト製作ページ</li>
+</ul>
 
+<!--				パンくずリスト　ここまで			-->
 
+<h2 id="topImage"><img src="images/top_page/top_page_top_Image.jpg" width="720" height="160" alt="トップページ見出し" /></h2>
+<div id="Gnavi">
+<ul>
+<li id="homePage"><a href="index.html" title="トップページへ">ホーム</a></li>
+<li id="webPage"><a href="web.html" title="サイト製作ページへ">webサイト製作</a></li>
+<li id="illustPage"><a href="illust.html" title="イラスト製作ページへ">イラスト製作ページへ</a></li>
+<li id="profilePage"><a href="profile.html" title="プロフィールページへ">プロフィール</a></li>
+<li id="contactPage"><a href="contact.html" title="コンタクトページへ">コンタクト</a></li>
+</ul>
+</div><!--				Gnavi　エリア　ここまで			-->
+<p id="siteMap"><a href="sitemap.html">サイトマップ</a></p>
+</div><!--				header　エリア　ここまで				-->
+
+<!--メインコンテンツ　ここから-->
+<div id="container" class="clearfix">
+    <div id="container" class="clearfix row">
+    <div class="clearfix col-sm-8">
+      <!-- メイン　左側ここから -->
+      <div class="row">
+        <div class="col-sm-4">
+          <h3 id="web"><a href="web.html" title="サイト製作ページへ"><img src="images/top_page/top_page_web_desgin_btn.png" width="95" height="110" alt="サイト制作" class="img-responsive"></a></h3>
+          <p class="text-muted text_size text-center">サイト制作リンク</p>
+        </div>
+        <div class="col-sm-4">
+          <h3 id="web"><a href="illust.html" title="イラスト製作ページへ"><img src="images/top_page/top_page_Illustration_btn.png" width="155" height="95" alt="イラスト制作" class="img-responsive"></a></h3>
+          <p class="text-muted text_size text-center">イラストページリンク</p>
+        </div>
+        <div class="col-sm-4">
+          <h3 id="web"><a href="profile.html" title="プロフィールページへ"><img src="images/top_page/top_page_profile_btn.jpg" width="75" height="98" alt="サイト制作" class="img-responsive"></a></h3>
+          <p class="text-muted text_size text-center">プロフィールリンク</p>
+        </div>
+      </div><!-- bootstrapのレイアウト設定 -->
+    </div><!--				メインコンテンツ　左側　ここまで				-->
+    
+    <div id="side" class="col-sm-4">
+    <!--        blogリンク　ここから      -->
+      <ul id="gotoBlog">
+        <li id="Pixiv"><a href="http://www.pixiv.net/member.php?id=2792758" title="アカウントが必要です。新しいタブで開きます。" target="_blank">pixiv</a></li>
+        <li id="Ameba"><a href="http://ameblo.jp/taiti048235921/" title="アカウントが必要です。新しいタブで開きます。" target="_blank">ameba</a></li>
+        <li id="Facebook"><a href="http://www.facebook.com/?sk=nf" title="新しいタブで開きます。" target="_blank">facebook</a></li>
+        <li id="twitter"><a href="http://twitter.com/#!/akisute_taiti" title="アカウントが必要です。新しいタブで開きます。" target="_blank">twitter</a></li>
+      </ul><!--        blogリンク　ここまで      -->
+    </div><!--				ローカルナビゲーション　エリア　ここまで			-->
+    </div><!-- コンテンツエリア　包括ボックス ここまで -->
+
+    <div class="row">
+      <div class="col-sm-12">
+        <p>このほか修正中</p>
+      </div>
+    </div><!-- お知らせここまで -->
+</div><!--				contents　包括　ボックス　container　エリア　ここまで				-->
+
+<!--メインコンテンツ　ここまで-->
+
+<div id="footer">
+<ul id="footerNavi">
+<li><a href="index.html" title="ホームへ">ホーム</a></li>
+<li><a href="web.html" title="サイト製作ページへ">サイト製作</a></li>
+<li><a href="illust.html" title="イラスト製作ページへ">イラスト製作</a></li>
+<li><a href="profile.html" title="プロフィールページへ">プロフィール</a></li>
+<li><a href="contact.html" title="コンタクトページへ">コンタクト</a></li>
+</ul>
 
 <address id="copy">
 <img src="images/top_page/copyright.png" width="360" height="15" alt="copryright&nbsp;&amp;copy&nbsp;Taichi&nbsp;Ishizaka&nbsp;2011&nbsp;All&nbsp;Rights&nbsp;Reserved." />
@@ -47,8 +126,9 @@
 </div><!--				footer　エリア　ここまで			-->
 
 </div><!--					全体の包括　ボックス　warpper　エリア　ここまで			-->
-<script type="text/javascript">
-swfobject.registerObject("FlashID");
-</script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
