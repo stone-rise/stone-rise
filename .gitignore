@@ -1,4 +1,5 @@
 #　コメントアウトされるファイル
 #　
-
-*Thumbs.db
+*.db
+images/Illust_closeUp_page/Thumbs.db
+images/Illust_closeUp_page/Illust_closeUp_Illust/Thumbs.db
