@@ -1,0 +1,38 @@
+/* main.css */
+/* 2015-06-16 taiti */
+@charset "utf-8";
+
+/* logo_header　ロゴの設定 */
+.logo_header {
+	padding: 8px 15px;
+}
+
+/* header_areaの設定 */
+.header_area {
+	clear: both;
+	margin: 0 0 20px 0;
+}
+
+
+/* Accordionの設定 */
+#testPanel li {
+	list-style: none;
+}
+
+#testPanel {
+	overflow:hidden;
+	width:1280px;
+	height:540px;
+	list-style-type:none;
+}
+
+#testPanel li a:hover img.looking{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	-ms-filter: "alpha( opacity=60 )";
+	background:none!important;
+}
+
+.slide_ul {
+	margin: 51px auto 0;
+}
