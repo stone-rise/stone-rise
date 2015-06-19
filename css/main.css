@@ -64,23 +64,34 @@ footer {
 /* media queryの設定  Lサイズ*/
 @media only screen and (min-width: 980px) {
 	/* sns iconの設定 */
-	.side img {
-		height: 60%;
-		
+	header.carousel {
+		height: 64%;
 	}
 }
 
 /* media queryの設定  Mサイズ*/
 @media only screen and (min-width: 768px) and (min-width: 989px) {
+	/* sns iconの設定 */
+	header.carousel {
+		height: 50%;
+	}
 	
 }
 
 /* media queryの設定  Sサイズ*/
 @media only screen and (max-width: 480px) and (min-width: 767px) {
-	
+	/* sns iconの設定 */
+	header.carousel {
+		height: 40%;
+	}
+
 }
 
 /* media queryの設定  XSサイズ*/
 @media only screen and (max-width: 480px) and (min-width: 767px) {
-	
+	/* sns iconの設定 */
+	header.carousel {
+		height: 30%;
+	}
+
 }
