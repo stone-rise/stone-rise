@@ -61,8 +61,26 @@ footer {
 	text-align: right;
 }
 
-/* media queryの設定  */
-@media only screen and (max-width: 760px) {
+/* media queryの設定  Lサイズ*/
+@media only screen and (min-width: 980px) {
+	/* sns iconの設定 */
+	.side img {
+		height: 60%;
+		
+	}
+}
+
+/* media queryの設定  Mサイズ*/
+@media only screen and (min-width: 768px) and (min-width: 989px) {
 	
 }
 
+/* media queryの設定  Sサイズ*/
+@media only screen and (max-width: 480px) and (min-width: 767px) {
+	
+}
+
+/* media queryの設定  XSサイズ*/
+@media only screen and (max-width: 480px) and (min-width: 767px) {
+	
+}
