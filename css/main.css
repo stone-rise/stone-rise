@@ -60,3 +60,9 @@ footer {
 .right {
 	text-align: right;
 }
+
+/* media queryの設定  */
+@media only screen and (max-width: 760px) {
+	
+}
+
