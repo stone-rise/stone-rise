@@ -10,14 +10,14 @@
     <title>stone-rise | Works</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="../css/modern-business.css" rel="stylesheet">
+    <link href="/css/modern-business.css" rel="stylesheet">
     <!-- Custom Fonts -->
-    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
-    <link href="../css/default.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="images/public/favicon.ico" type="image/vnd.microsoft.icon">
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css" rel="stylesheet" type="text/css">
+    <link href="/css/default.css" rel="stylesheet" type="text/css">
+    <link href="/images/public/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -39,71 +39,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logo_header" href="/"><img src="../images/public/stone-rise_header_logo.png" height="34" width="176" alt="stone-riseのロゴ"></a>
+                <a class="navbar-brand logo_header" href="/"><img src="/images/public/stone-rise_header_logo.png" height="34" width="176" alt="stone-riseのロゴ"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li class="active">Works</li>
                     <li>
-                        <a href="../gallery/index.html">Gallery</a>
+                        <a href="/gallery/index.html">Gallery</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="/profile/index.html">Profile</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="/contact/index.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -377,11 +329,29 @@
 
         <!-- Footer -->
         <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+            <div class="row footer_sns">
+                <div class="col-md-12 sns_link">
+                    <ul class="list-inline">
+                        <li><a href="http://www.pixiv.net/mypage.php#id=2792758" target="_blank" title="別ウインドウで開きます"><img src="images/public/pixiv_sns.png" height="42" width="108"></a></li>
+                        <li><a href="https://www.facebook.com/taichi.ishizaka2" target="_blank" title="別ウインドウで開きます"><img src="images/public/facebook_sns.png" height="41" width="161"></a></li>
+                    </ul>
                 </div>
-            </div>
+            </div><!-- footer_sns .end -->
+
+            <div class="row">
+                <div class="col-lg-8 col-sm-8 footer_area">
+                    <ul class="footer_link nav navbar-nav">
+                        <li><i class="glyphicon glyphicon-triangle-right"><a href="/">Home</a></i></li>
+                        <li><i class="glyphicon glyphicon-triangle-right"><a href="/works/index.html">Works</a></i></li>
+                        <li><i class="glyphicon glyphicon-triangle-right"><a href="/gallery/index.html">Gallery</a></i></li>
+                        <li><i class="glyphicon glyphicon-triangle-right"><a href="/profile/index.html">Profile</a></i></li>
+                        <li><i class="glyphicon glyphicon-triangle-right"><a href="/contact/index.html">Contact</a></i></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-4 right">
+                    <p>Copyright &copy; stone-rise 2015</p>
+                </div>
+            </div><!-- footer_area .end -->
         </footer>
 
     </div>

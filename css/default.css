@@ -6,3 +6,9 @@
 .logo_header {
 	padding: 8px 15px;
 }
+
+/* page titleの設定 */
+.page-header {
+	margin: 70px 0 0 0;
+	font-size: 2em;
+}
