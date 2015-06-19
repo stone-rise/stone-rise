@@ -8,10 +8,6 @@
 }
 
 /* Accordionの設定 */
-header.carousel {
-	height: 64%;
-}
-
 .slide {
 	margin: 51px 0 0 0;
 }
@@ -68,15 +64,9 @@ footer {
 		height: 30%;
 	}
 
-}
-
-/* media queryの設定  Mサイズ*/
-@media only screen and (min-width: 768px) and (max-width: 989px) {
-	/* sns iconの設定 */
-	header.carousel {
-		height: 50%;
-	}
+	/* footer navの設定 */
 	
+
 }
 
 /* media queryの設定  Sサイズ*/
@@ -88,6 +78,14 @@ footer {
 
 }
 
+/* media queryの設定  Mサイズ*/
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+	/* sns iconの設定 */
+	header.carousel {
+		height: 50%;
+	}
+	
+}
 
 /* media queryの設定  Lサイズ*/
 @media only screen and (min-width: 980px) {
