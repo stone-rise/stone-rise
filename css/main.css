@@ -61,12 +61,13 @@ footer {
 	text-align: right;
 }
 
-/* media queryの設定  Lサイズ*/
-@media only screen and (min-width: 980px) {
+/* media queryの設定  XSサイズ*/
+@media only screen and (min-width: 479px) {
 	/* sns iconの設定 */
 	header.carousel {
-		height: 70%;
+		height: 30%;
 	}
+
 }
 
 /* media queryの設定  Mサイズ*/
@@ -87,11 +88,14 @@ footer {
 
 }
 
-/* media queryの設定  XSサイズ*/
-@media only screen and (min-width: 479px) {
+
+/* media queryの設定  Lサイズ*/
+@media only screen and (min-width: 980px) {
 	/* sns iconの設定 */
 	header.carousel {
-		height: 30%;
+		height: 70%;
 	}
-
 }
+
+
+
