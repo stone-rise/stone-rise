@@ -16,6 +16,10 @@ header.carousel {
 	margin: 51px 0 0 0;
 }
 
+.slide a:hover {
+	opacity: 0.6;
+}
+
 /* footerの設定 */
 footer {
 	margin: 20px 0 0 0;
