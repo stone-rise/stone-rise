@@ -57,43 +57,7 @@ footer {
 	text-align: right;
 }
 
-/* media queryの設定  XSサイズ*/
-@media only screen and (max-width: 479px) {
-	/* sns iconの設定 */
-	header.carousel {
-		height: 30%;
-	}
 
-	/* footer navの設定 */
-	
-
-}
-
-/* media queryの設定  Sサイズ*/
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	/* sns iconの設定 */
-	header.carousel {
-		height: 40%;
-	}
-
-}
-
-/* media queryの設定  Mサイズ*/
-@media only screen and (min-width: 768px) and (max-width: 989px) {
-	/* sns iconの設定 */
-	header.carousel {
-		height: 50%;
-	}
-	
-}
-
-/* media queryの設定  Lサイズ*/
-@media only screen and (min-width: 980px) {
-	/* sns iconの設定 */
-	header.carousel {
-		height: 70%;
-	}
-}
 
 
 
