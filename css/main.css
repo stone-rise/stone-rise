@@ -58,7 +58,7 @@ footer {
 }
 
 /* media queryの設定  XSサイズ*/
-@media only screen and (min-width: 479px) {
+@media only screen and (max-width: 479px) {
 	/* sns iconの設定 */
 	header.carousel {
 		height: 30%;
