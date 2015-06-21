@@ -10,6 +10,7 @@
 /* Accordionの設定 */
 .slide {
 	margin: 51px 0 0 0;
+	height: 60%;
 }
 
 .slide a:hover {
@@ -24,10 +25,6 @@ footer {
 /* sns iconの設定 */
 .footer_sns {
 	margin: 0 0 20px -5px;
-}
-
-.footer_sns li {
-	padding-bottom: 10px;
 }
 
 .sns_link {
