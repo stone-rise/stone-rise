@@ -24,26 +24,13 @@ footer {
 /* sns iconの設定 */
 .footer_sns {
 	margin: 0 0 20px -5px;
+	padding-bottom: 10px;
 }
 
 .sns_link {
 	padding-left: 0;
 }
 
-/* footer navの設定 */
-.footer_link li {
-	padding: 0 0 0 14px;
-}
-
-.footer_link li a {
-	font-size: 1em;
-	color: #333;
-}
-
-/* copyrightの設定 */
-.right {
-	text-align: right;
-}
 
 
 
