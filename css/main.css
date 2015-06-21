@@ -31,25 +31,13 @@ footer {
 }
 
 /* footer navの設定 */
-.footer_area {
-	margin-left: -20px;
-}
-
 .footer_link li {
 	padding: 0 0 0 14px;
 }
 
-.footer_area {
-	padding-left: 12px;
-}
-
 .footer_link li a {
-	font-size: 1.3em;
+	font-size: 1em;
 	color: #333;
-}
-
-.footer_link li i {
-	vertical-align: top;
 }
 
 /* copyrightの設定 */
