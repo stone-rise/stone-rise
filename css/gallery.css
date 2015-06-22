@@ -14,13 +14,17 @@
 
 /*ーーーーItem page settingーーーー*/
 /*close button setting*/
-#glisse-overlay-content {
+#glisse-wrapper {
+	position: relative;
+}
+
+#glisse-close {
     background-color: #ccc;
     border: solid 1px #999;
     border-radius: 4px;
-    position: absolute;
-	top:90px;
-	right: 120px;
+    position: fixed;
+	top: 62px;
+	left: 10px;
 	height: 40px;
 	width: 40px;
 	background: url(/images/public/close.png) no-repeat center;
@@ -30,4 +34,11 @@
 /*item gralley image-resize*/
 #glisse-overlay {
   background: rgba(0,0,0.3);}
+
+#glisse-overlay-content {
+	max-width: 1040px;
+	max-height: 740px;
+}
+
+
 

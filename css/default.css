@@ -25,3 +25,13 @@
 	margin: 10px 0 0 0;
 }
 
+/* sns iconの設定 */
+.footer_sns {
+	margin: 0 0 20px -5px;
+}
+
+.sns_link {
+	padding-left: 0;
+}
+
+
