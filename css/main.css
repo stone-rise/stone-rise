@@ -1,0 +1,38 @@
+/* main.css */
+/* 2015-06-16 taiti */
+@charset "utf-8";
+
+/* logo_header　ロゴの設定 */
+.logo_header {
+	padding: 8px 15px;
+}
+
+/* Accordionの設定 */
+.slide {
+	margin: 51px 0 0 0;
+	height: 60%;
+}
+
+.slide a:hover {
+	opacity: 0.6;
+}
+
+/* footerの設定 */
+footer {
+	margin: 20px 0 0 0;
+}
+
+/* sns iconの設定 */
+.footer_sns {
+	margin: 0 0 20px -5px;
+}
+
+.sns_link {
+	padding-left: 0;
+}
+
+
+
+
+
+

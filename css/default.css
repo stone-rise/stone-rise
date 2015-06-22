@@ -1,0 +1,14 @@
+/* default.css */
+/* 2015-06-16 taiti */
+@charset "utf-8";
+
+/* logo_header　ロゴの設定 */
+.logo_header {
+	padding: 8px 15px;
+}
+
+/* page titleの設定 */
+.page-header {
+	margin: 70px 0 0 0;
+	font-size: 2em;
+}
