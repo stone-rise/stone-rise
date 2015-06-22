@@ -14,12 +14,7 @@
 
 /*ーーーーItem page settingーーーー*/
 /*close button setting*/
-#glisse-wrapper {
-	position: relative;
-}
-
-
-#glisse-close {
+#glisse-overlay-content {
     background-color: #ccc;
     border: solid 1px #999;
     border-radius: 4px;
