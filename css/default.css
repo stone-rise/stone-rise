@@ -7,8 +7,20 @@
 	padding: 8px 15px;
 }
 
-/* page titleの設定 */
-.page-header {
-	margin: 70px 0 0 0;
-	font-size: 2em;
+.header_title {
+  margin: 70px 0 20px;
+  font-size: 200%;
+}
+
+
+/* サイト制作の説明 */
+.web_site {
+	margin: 40px 0 10px 0;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+/* site view btnの設定 */
+.site_view {
+	margin: 10px 0 0 0;
 }
