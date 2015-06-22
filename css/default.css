@@ -28,6 +28,7 @@
 /* gallery pageの設定 */
 .gallery_title {
 	margin: 20px 0 20px 0;
+	font-size: 150%;
 }
 
 .gallery_image {
