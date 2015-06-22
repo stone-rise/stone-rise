@@ -24,3 +24,12 @@
 .site_view {
 	margin: 10px 0 0 0;
 }
+
+/* gallery pageの設定 */
+.gallery_title {
+	margin: 20px 0 20px 0;
+}
+
+.gallery_image {
+	margin: 0 0 10px 0;
+}
