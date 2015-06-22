@@ -11,3 +11,11 @@
   margin: 70px 0 20px;
   font-size: 200%;
 }
+
+
+/* サイト制作の説明 */
+.web_site {
+	margin: 40px 0 10px 0;
+	font-size: 200%;
+	font-weight: bold;
+}
