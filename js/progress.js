@@ -102,7 +102,7 @@ $(function() {
 //.flash progress
 $(function() {
     $(document).ready(function() {
-        $('.flash_skill').css({'width':'12%'});
+        $('.flash_skill').css({'width':'8%'});
     });
 });
 
