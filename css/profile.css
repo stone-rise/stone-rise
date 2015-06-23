@@ -1,0 +1,30 @@
+/* profile.css */
+/* 2015-06-23 taiti */
+@charset "utf-8";
+
+/* 職務経歴の設定 */
+.project_title th {
+    font-weight: bold;
+}
+
+.project_title h4 {
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.secound_title {
+    margin: 0px 0 20px 0;
+}
+
+.date_calendar {
+    font-size: 80%;
+}
+
+/* skillタイトルの設定 */
+.skill_title {
+	margin: 10px 0 10px 0;
+	width: 38%;
+	padding: 4px;
+	border-radius: 4px;
+}
+
