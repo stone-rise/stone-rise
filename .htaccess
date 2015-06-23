@@ -1,0 +1,10 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options -Indexes
+ErrorDocument 404 /404.html
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www\.stone-rise\.com)(:80)? [NC]
+RewriteRule ^(.*) http://stone-rise.com/$1 [R=301,L]
+DirectoryIndex index.html       
+order deny,allow
