@@ -56,3 +56,26 @@
     text-decoration: none;
     opacity: 0.5;
 }
+
+/* 404 エラーページの設定 */
+.error_page {
+    margin: 20px 0 0 0;
+}
+
+/* 404 title */
+.error_404_title {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: #ab093b;
+}
+
+/* 404 p 文字の大きさ */
+.error_p {
+    font-size: 16px;
+}
+
+/* 404 page　carouselの設定 */
+.carousel {
+    height: 50%;
+}
