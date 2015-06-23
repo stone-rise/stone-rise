@@ -1,0 +1,22 @@
+/* contact.css */
+/* 2015-06-23 taiti */
+@charset "utf-8";
+
+/* メッセージの表示 */
+.contact_message {
+	margin: 0 0 20px 0;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+/* 必須項目の色変更 */
+.controls span {
+	color: #8b0000
+}
+
+/* 連絡先のタイトル設定 */
+.email_title {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
