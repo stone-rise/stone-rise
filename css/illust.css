@@ -64,29 +64,6 @@
 
 /*---------------------イラスト　リンク　設定　ここから----------------------*/
 
-#honeyIllust a {
-	display: block;
-	width: 120px;
-	overflow: hidden;
-	height: 0 !important;
-	height /**/: 110px;
-	padding-top: 110px;
-	margin: 0;
-	background: url(../images/Illustration_page/Ilust_aicon/Illustration_page_main_honey.jpg) no-repeat left top;
-}
-
-#honeyIllust a:hover {
-	background-position: 0 -110px;
-}
-
-#honeyIllust a:active {
-	background-position: 0 -220px;
-}
-
-
-/*------------------------クリスマスイラスト　設定　ここから--------------------------*/
-
-
 #chritmasIllust a {
 	display: block;
 	width: 120px;

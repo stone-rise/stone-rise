@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a,address{
 #header {
 	width: 100%;
 	background: #fff;
-	height: 312px;
+	height: 298px;
 	border-bottom: 2px solid #666;
 }
 
@@ -302,8 +302,13 @@ h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a,address{
 	position: relative;
 }
 
-/*-------------左側の設定　ここから　bootstrapのため削除------------*/
+/*-------------左側の設定　ここから------------*/
 
+#contents {
+	float: left;
+	width: 485px;
+	margin: 0 15px 0 0 ;
+}
 
 /*------------webサイト製作　ここから--------------*/
 
@@ -468,9 +473,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a,address{
 }
 
 #news li {
-	margin: 0 0 5px 0;
+	margin: 0;
 	padding: 0;
-	height: 15px;
+	height: 20px;
 	border-bottom: 1px solid #ddd;
 }
 
@@ -501,37 +506,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a,address{
 	width: 330px;
 }
 
-/*			イラストアイコン　設定　ここから		*/
-
-#news dd.Illust_skecth {
-	float: right;
-	width: 250px;
-	font-size: 70%;
-	height: 15px;
-	padding: 0 0 0 80px;
-	background: url(../images/top_page/whats_news_Illust_aicon.png) no-repeat left top;
-}
-
-*html #news dd {
-	width: 330px;
-}
-
-/*			フラッシュアイコン　設定　ここから		*/
-
-
-#news dd.flash_contents {
-	float: right;
-	width: 250px;
-	font-size: 70%;
-	height: 15px;
-	padding: 0 0 0 80px;
-	background: url(../images/top_page/whats_news_flash_aicon.png) no-repeat left top;
-}
-
-*html #news dd {
-	width: 330px;
-}
-
 
 /*--Illust　アイコン　の指定の場合 id名 IllustrationUp--*/
 
@@ -539,26 +513,15 @@ h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a,address{
 
 /*------------更新情報　設定　ここまで----------*/
 
-
-/*-------------------flash　エリア　設定　ここから-----------------------*/
-
-
-#flash_area {
-	margin: 20px 0 0 0;
-}
-
-
-
-/*-------------------flash　エリア　設定　ここまで-----------------------*/
-
-
 /*-------------左側の設定　ここまで------------*/
 
 
 /*------------ブログの設定　ここから------------*/
 #side {
+	float: right;
 	width: 210px;
 	height: 300px;
+	background: url(../images/top_page/top_page_side_bg.png) no-repeat left top;
 }
 
 
@@ -742,13 +705,3 @@ h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a,address{
 	left: 380px;
 }
 
-
-
-/* メインエリアのテキスト設定 */
-.text_size {
-	font-size: 80%;
-}
-
-.col-sm-4 h3 img {
-	width: 100%;
-}
