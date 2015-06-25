@@ -13,6 +13,7 @@
 }
 
 
+/* /works/index.html */
 /* サイト制作の説明 */
 .web_site {
 	margin: 40px 0 10px 0;
@@ -24,6 +25,15 @@
 .site_view {
 	margin: 10px 0 0 0;
 }
+
+/* small attention */
+.attention {
+    padding: 8px 0 0 0;
+    color: #c90b00
+}
+
+/* /./works/index.html */
+
 
 /* sns iconの設定 */
 .footer_sns {
