@@ -89,3 +89,22 @@
 .carousel {
     height: 50%;
 }
+
+/* bg_imageの設定 */
+/*background image setting*/
+.bg_image {
+    background: url('/images/bg_image/background_test.png') no-repeat center left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+/* top image change設定 */
+.page-title {
+  padding-bottom: 9px;
+  margin: 0px 0 20px 0;
+  border-bottom: 1px solid #eee;
+}
