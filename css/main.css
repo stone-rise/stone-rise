@@ -1,0 +1,77 @@
+/* main.css */
+/* 2015-06-16 taiti */
+@charset "utf-8";
+
+html, body {
+    height: 100%;
+}
+
+/* logo_header　ロゴの設定 */
+.logo_header {
+	padding: 8px 15px;
+}
+
+/* Accordionの設定 */
+.slide {
+	margin: 51px 0 0 0;
+	height: 60%;
+}
+
+.slide a:hover {
+	opacity: 0.6;
+}
+
+
+/* top imageの設定 */
+.top_image {
+    margin: 90px 0 0 0;
+}
+
+
+/* footerの設定 */
+footer {
+	margin: 20px 0 0 0;
+}
+
+/* sns iconの設定 */
+.footer_sns {
+	margin: 0 0 20px -5px;
+}
+
+.sns_link {
+	padding-left: 0;
+}
+
+/* page topへ戻るボタンの設定 */
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+}
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+/* bg_imageの設定 */
+/*background image setting*/
+.bg_image {
+    background: url('/images/bg_image/background_test.png') no-repeat center left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+

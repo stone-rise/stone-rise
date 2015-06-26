@@ -1,190 +1,30 @@
+/* profile.css */
+/* 2015-06-23 taiti */
 @charset "utf-8";
-/*
- CSS Document  top.css
- 
- STONE_RISE　ページ　全体のスタイル設定
- 
- */
- 
-/*------------------proflieファイル　基本設定　ここから------------------*/
 
-*html #profileArea #myProfile dl{
-	margin: -0px 0 -5px 0;
-	padding: 0;
+/* 職務経歴の設定 */
+.project_title th {
+    font-weight: bold;
 }
 
-*html #profileArea #myHistory dl{
-	margin: 0px 0 0 0;
-	padding: 0;
+.project_title h4 {
+    font-weight: bold;
+    margin: 0 0 10px 0;
 }
 
-
-/*------------------proflieファイル　基本設定　ここまで------------------*/
-
-/*-----------------メインコンテンツ　左側　設定　ここから-------------------*/
-
-#container {
-	width: 720px;
-	margin: 10px 15px 30px;
+.secound_title {
+    margin: 0px 0 20px 0;
 }
 
-#contents {
-	float: left;
-	width: 410px;
-	background: #fff;
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-	border-bottom: 2px solid #ccc;
-	margin: 0px;
-	padding: 0;
+.date_calendar {
+    font-size: 80%;
 }
 
-#contents h3 {
+/* skillタイトルの設定 */
+.skill_title {
 	margin: 10px 0 10px 0;
-	padding: 0;
+	width: 38%;
+	padding: 4px;
+	border-radius: 4px;
 }
-
-#profileArea {
-	margin: 0 0 0 10px;
-	font-size: 80%;
-}
-
-/*-------------------自己紹介　設定　ここから---------------------*/
-
-#myProfile {
-	width: 100%;
-	background: url(../images/profile_page/profile-page_main_text_bg.png) repeat-y top left;
-}
-
-#myProfile li {
-	width: 360px;
-	margin: 0 0 0 40px;
-	padding: 0px 0;
-}
-
-#myProfile dl {
-	width: 100%;
-	margin: 0 0 0px 0;
-	padding: 0 0 0px 0;
-}
-
-#myProfile dt {
-	float: left;
-	width: 130px;
-	margin: 10px 0;
-}
-
-#myProfile dd {
-	float: right;
-	width: 210px;
-	margin: 10px 0;
-}
-
-/*-------------------自己紹介　設定　ここから---------------------*/
-
-/*-----------------経歴　設定　ここから--------------------*/
-
-#myHistory {
-	width: 100%;
-	background: url(../images/profile_page/profile-page_main_text_bg.png) repeat-y top left;
-}
-
-#myHistory li {
-	width: 360px;
-	margin: 0 0 0 0px;
-	padding: 0px 0;
-}
-
-#myHistory dl {
-	width: 100%;
-	margin: 0 0 0px 0;
-	padding: 0 0 0px 0;
-}
-
-#myHistory dt {
-	float: left;
-	width: 130px;
-	margin: 10px 0;
-	text-align: center;
-	font-size: 90%;
-}
-
-*html #myHistory dt {
-	font-size: 88%;
-} 
-
-#myHistory dd {
-	float: right;
-	width: 210px;
-	margin: 10px 0;
-	font-size: 90%;
-}
-
-*html #myHistory dd {
-	font-size: 88%;
-} 
-
-/*-----------------経歴　設定　ここまで--------------------*/
-
-/*---------skill　一覧　設定　ここから----------*/
-
-#mySkill {
-	width: 370px;
-	margin: 0px 10px;
-	padding: 0 0 20px 0;
-}
-
-#mySkillLeft {
-	float: left;
-	width: 150px;
-}
-
-#mySkillRight {
-	float: right;
-	width: 150px;
-}
-
-#mySkill h4 {
-	width: 150px;
-	background: #1382ff;
-	color: #fff;
-	font-size: 85%;
-	text-align: center;
-	padding: 5px 0 5px 0;
-}
-
-#mySkill ul {
-	font-size: 95%;
-	letter-spacing: -0.002em;
-	margin: 8px 0 3px 5px
-}
-
-#mySkillLeft li {
-	margin: 0 0 5px 0;
-}
-
-
-
-/*---------skill　一覧　設定　ここまで----------*/
-
-
-/*-----------------メインコンテンツ　左側　設定　ここまで-------------------*/
-
-/*--------------------メインコンテンツ　右側　設定　ここから-------------------------*/
-
-#side {
-	float: right;
-	width: 300px;
-	background: #fff;
-}
-
-#side h3 {
-	margin: 10px;
-}
-
-/*--------------------メインコンテンツ　右側　設定　ここまで-------------------------*/
-
-
-
-
 

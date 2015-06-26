@@ -1,152 +1,22 @@
+/* contact.css */
+/* 2015-06-23 taiti */
 @charset "utf-8";
-/*
- CSS Document  top.css
- 
- STONE_RISE　ページ　全体のスタイル設定
- 
- */
- 
-#container {
-	width: 510px;
-	margin: 10px auto 30px;
-	background: #fff;
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-	border-bottom: 2px solid #ccc;
+
+/* メッセージの表示 */
+.contact_message {
+	margin: 0 0 20px 0;
+	font-weight: bold;
+	font-size: 110%;
 }
 
-#contents {
-	width: 480px;
-	margin: 0px 10px;
-	padding: 10px 0;
+/* 必須項目の色変更 */
+.controls span {
+	color: #8b0000
 }
 
-*html #contents {
-	margin: 0 0 0 10px;
-}
-
-/*----------------フォーム　見出し　設定　ここから-----------------*/
-
-#formHeadLine {
+/* 連絡先のタイトル設定 */
+.email_title {
+	font-size: 110%;
+	font-weight: bold;
 	margin: 0 0 10px 0;
 }
-
-/*----------------フォーム　見出し　設定　ここまで-----------------*/
-
-/*------------------注意書き　設定　ここから-------------------*/
-
-#formAttention {
-	width: 488px;
-	margin: 8px 10px 8px 0;
-	border: 2px solid #ddd;
-	background: #fff;
-}
-
-#attentionArea {
-	width: 478px;
-	background: #f3fcff;
-	border: 5px solid #fff;
-}
-
-#attention {
-	float: left;
-	width: 70px;
-	color: #F00;
-	font-size: 90%;
-	padding: 5px 0 0 0;
-	margin: 0 0 0 20px;
-}
-
-#attentionText {
-	float: right;
-	width: 350px;
-	font-size: 70%;
-	padding: 10px 0 10px 0;
-	margin: 0 5px 0;
-}
-
-/*------------------注意書き　設定　ここまで-------------------*/
-
-
-/*-----------------入力順　設定　ここから------------------*/
-
-#formTurn {
-	margin: 0 0 15px 0;
-}
-
-/*-----------------入力順　設定　ここまで------------------*/
-
-/*-----------------フォーム　設定　ここから-------------------*/
-
-#stone_riseForm {
-	width: 490px;
-	margin: 0 0px 0;
-	font-weight: normal;
-}
-
-#stone_riseForm table {
-	width: 490px;
-	font-size: 65%;
-	padding: 0;
-	text-align: left;
-}
-
-#stone_riseForm table caption {
-	text-align: left;
-}
-
-#stone_riseForm th {
-	border-left: 5px solid #0077d3;
-	background: #dae9ee;
-	width: 220px;
-	padding: 10px;
-	font-weight: normal;
-}
-
-
-#stone_riseForm td {
-	border-right: 1px solid #ccc;
-	background: #f3f3f3;
-	padding: 10px;
-	width: 270px;
-}
-
-#stone_riseForm table em {
-	color: #f53e3f;
-}
-
-.inputType1{
-	width: 250px;
-}
-
-.inputType3 {
-	width: 250px;
-}
-
-
-/*-----------------フォーム　設定　ここまで-------------------*/
-
-/*---------------フォーム　送信ボタン　設定　ここから---------------*/
-
-#submit input {
-	width: 120px;
-	height: 30px;
-	margin: 10px 0 20px 0;
-	border-top: 1px solid #6CF;
-	border-left: 1px solid #6CF;
-	border-right: 1px solid #039;
-	border-bottom: 1px solid #039;
-	background: #6689b6;
-	color: #fff;
-}
-
-#stone_riseForm caption {
-	padding: 0 0 5px 155px;
-}
-
-
-
-
-
-
-

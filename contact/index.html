@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Webデザイナー石坂太一のポートフォリオサイトです。今までの作成したサイト及び、作品類を掲載しております。webデザイン、コーディングなどが得意です。">
+    <meta name="keywords" content="stone-rise,ポートフォリオ,イラスト,Webデザイナー">
+    <meta name="format-detection" content="telephone=no, email=no, address=no">
+    <title>stone-rise | Contact</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/css/modern-business.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css" rel="stylesheet" type="text/css">
+    <link href="/css/default.css" rel="stylesheet" type="text/css">
+    <link href="/css/profile.css" rel="stylesheet" type="text/css">
+    <link href="/css/contact.css" rel="stylesheet" type="text/css">
+    <link href="/images/public/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- page top back button jQuery-->
+    <script type="text/javascript" src="/js/page_top.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="bg_image">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top header_area" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo_header" href="/"><img src="/images/public/stone-rise_header_logo.png" height="34" width="176" alt="stone-riseのロゴ"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/works/">works</a>
+                    </li>
+                    <li>
+                        <a href="/gallery/">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="/profile/">Profile</a>
+                    </li>
+                    <li>
+                        <a href="/contact/">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header header_title">Contact
+                    <small>お問い合わせ</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="/">Home</a>
+                    </li>
+                    <li class="active">Contact</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+            <!-- 自己紹介　タイトル -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="page-header gallery_title">お問い合わせ</h2>
+                </div>
+            </div><!-- /.自己紹介　タイトル -->
+
+
+            <!-- Contact Form -->
+            <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+            <div class="col-md-8">
+                <h3 class="contact_message">現在はメール送信機能を実装していません。<br>お問い合わせがある方は直接メールでのご連絡をお願いします。</h3>
+                <form name="sentMessage" id="contactForm" novalidate>
+
+                    <!-- お名前入力 -->
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>お名前:</label><span>＊(必須)</span>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="お名前を入力してください。">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+
+                    <!-- メールアドレス入力 -->
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>メールアドレス:</label><span>＊(必須)</span>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="メールアドレスを入力してください。">
+                        </div>
+                    </div>
+
+                    <!-- お問い合わせ内容 -->
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>お問い合わせ内容:</label><span>＊(必須)</span>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="お問い合わせ内容を入力してください。" maxlength="999" style="resize:none"></textarea>
+                        </div>
+
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary">送信</button>
+                </form>
+            </div>
+            <!-- Contact Details Column -->
+
+
+            <div class="col-md-4">
+                <h3 class="email_title">連絡先</h3>
+                <!-- <p><i class="fa fa-phone"></i><abbr title="Phone">P</abbr>: (123) 456-7890</p> -->
+                <p><i class="fa fa-envelope-o"></i>
+                    <abbr title="Email">E</abbr>: <a href="mailto:taiti@stone-rise.com">taiti@stone-rise.com</a>
+                </p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row footer_sns">
+                <div class="col-md-12 col-xs-12 sns_link">
+                    <ul class="list-inline">
+                        <li><a href="http://www.pixiv.net/mypage.php#id=2792758" target="_blank" title="別ウインドウで開きます"><img src="/images/public/pixiv_sns.png" height="42" width="108"></a></li>
+                        <li><a href="https://www.facebook.com/taichi.ishizaka2" target="_blank" title="別ウインドウで開きます"><img src="/images/public/facebook_sns.png" height="41" width="161"></a></li>
+                    </ul>
+                </div>
+            </div><!-- footer_sns .end -->
+
+            <div class="row">
+
+                <div class="col-lg-12 col-sm-12">
+                    <p>Copyright &copy; stone-rise 2015</p>
+                </div>
+            </div><!-- footer_area .end -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- 画面トップへ戻るボタン -->
+    <p id="page-top"><a href="#wrap"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span> PAGE TOP</a></p>
+
+    <!-- Contact Form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
+
+    <!-- google Analytics -->
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-18799292-4', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</body>
+
+</html>

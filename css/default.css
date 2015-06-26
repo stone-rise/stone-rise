@@ -1,0 +1,110 @@
+/* default.css */
+/* 2015-06-16 taiti */
+@charset "utf-8";
+
+/* logo_header　ロゴの設定 */
+.logo_header {
+	padding: 8px 15px;
+}
+
+.header_title {
+  margin: 70px 0 20px;
+  font-size: 200%;
+}
+
+
+/* /works/index.html */
+/* サイト制作の説明 */
+.web_site {
+	margin: 40px 0 10px 0;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+/* site view btnの設定 */
+.site_view {
+	margin: 10px 0 0 0;
+}
+
+/* small attention */
+.attention {
+    padding: 8px 0 0 0;
+    color: #c90b00
+}
+
+/* /./works/index.html */
+
+
+/* sns iconの設定 */
+.footer_sns {
+	margin: 0 0 20px -5px;
+}
+
+.sns_link {
+	padding-left: 0;
+}
+
+/* page topへ戻るボタンの設定 */
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+    bottom: -100px;
+}
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+#page-top a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+/* 404 エラーページの設定 */
+.error_page {
+    margin: 20px 0 0 0;
+}
+
+/* 404 title */
+.error_404_title {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: #ab093b;
+}
+
+/* 404 p 文字の大きさ */
+.error_p {
+    font-size: 16px;
+}
+
+/* 404 page　carouselの設定 */
+.carousel {
+    height: 50%;
+}
+
+/* bg_imageの設定 */
+/*background image setting*/
+.bg_image {
+    background: url('/images/bg_image/background_test.png') no-repeat center left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+/* top image change設定 */
+.page-title {
+  padding-bottom: 9px;
+  margin: 0px 0 20px 0;
+  border-bottom: 1px solid #eee;
+}
