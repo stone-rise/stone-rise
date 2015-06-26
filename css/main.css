@@ -2,6 +2,10 @@
 /* 2015-06-16 taiti */
 @charset "utf-8";
 
+html, body {
+    height: 100%;
+}
+
 /* logo_header　ロゴの設定 */
 .logo_header {
 	padding: 8px 15px;
@@ -16,6 +20,13 @@
 .slide a:hover {
 	opacity: 0.6;
 }
+
+
+/* top imageの設定 */
+.top_image {
+    margin: 90px 0 0 0;
+}
+
 
 /* footerの設定 */
 footer {
@@ -53,6 +64,14 @@ footer {
     opacity: 0.5;
 }
 
-
+/* bg_imageの設定 */
+/*background image setting*/
+.bg_image {
+    background: url('/images/bg_image/background_test.png') no-repeat center left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 
