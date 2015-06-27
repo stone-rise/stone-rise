@@ -12,6 +12,20 @@
 	margin: 0 0 10px 0;
 }
 
+
+/* grallery page h2 layout設定 */
+.page-subtitle {
+	margin: 20px 0;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #eee;
+}
+
+/* font sizeの設定 */
+.gallery_subtitle {
+	font-size: 120%;
+}
+
+
 /*ーーーーItem page settingーーーー*/
 /*close button setting*/
 #glisse-wrapper {
